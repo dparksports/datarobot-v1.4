@@ -7,14 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59254A0F19C15D0A00873466 /* libFlurry_5.3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59254A0E19C15D0A00873466 /* libFlurry_5.3.0.a */; };
 		5980075219C12702003A11D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5980075119C12702003A11D9 /* main.m */; };
 		5980075519C12702003A11D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5980075419C12702003A11D9 /* AppDelegate.m */; };
-		5980075819C12702003A11D9 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5980075719C12702003A11D9 /* FirstViewController.m */; };
-		5980075B19C12702003A11D9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5980075A19C12702003A11D9 /* SecondViewController.m */; };
 		5980075E19C12703003A11D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5980075C19C12703003A11D9 /* Main.storyboard */; };
 		5980076019C12703003A11D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5980075F19C12703003A11D9 /* Images.xcassets */; };
 		5980076319C12703003A11D9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5980076119C12703003A11D9 /* LaunchScreen.xib */; };
 		5980076F19C12703003A11D9 /* Data_RobotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5980076E19C12703003A11D9 /* Data_RobotTests.m */; };
+		598007AC19C12750003A11D9 /* CallEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 5980077919C12750003A11D9 /* CallEvent.m */; };
+		598007AD19C12750003A11D9 /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5980077B19C12750003A11D9 /* LocationManager.m */; };
+		598007AE19C12750003A11D9 /* CallManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5980077D19C12750003A11D9 /* CallManager.m */; };
+		598007AF19C12750003A11D9 /* HistoryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5980077F19C12750003A11D9 /* HistoryManager.m */; };
+		598007B019C12750003A11D9 /* UserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 5980078119C12750003A11D9 /* UserDefaults.m */; };
+		598007B119C12750003A11D9 /* CallPeriodStateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 5980078319C12750003A11D9 /* CallPeriodStateMachine.m */; };
+		598007B219C12750003A11D9 /* DebugManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5980078519C12750003A11D9 /* DebugManager.m */; };
+		598007B319C12750003A11D9 /* CallPeriod.m in Sources */ = {isa = PBXBuildFile; fileRef = 5980078719C12750003A11D9 /* CallPeriod.m */; };
+		598007B419C12750003A11D9 /* CalendarComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 5980078919C12750003A11D9 /* CalendarComponents.m */; };
+		598007B519C12750003A11D9 /* NotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5980078B19C12750003A11D9 /* NotificationManager.m */; };
+		598007B619C12750003A11D9 /* Formats.m in Sources */ = {isa = PBXBuildFile; fileRef = 5980078D19C12750003A11D9 /* Formats.m */; };
+		598007B719C12750003A11D9 /* StatsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5980078F19C12750003A11D9 /* StatsManager.m */; };
+		598007B819C12750003A11D9 /* MGCurrentBillPeriod.m in Sources */ = {isa = PBXBuildFile; fileRef = 5980079119C12750003A11D9 /* MGCurrentBillPeriod.m */; };
+		598007B919C12750003A11D9 /* MGDataUsageObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5980079319C12750003A11D9 /* MGDataUsageObject.m */; };
+		598007BA19C12750003A11D9 /* MGQuotaPadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5980079519C12750003A11D9 /* MGQuotaPadController.m */; };
+		598007BB19C12750003A11D9 /* MGUsedPadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5980079719C12750003A11D9 /* MGUsedPadController.m */; };
+		598007BC19C12750003A11D9 /* MGDayPadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5980079919C12750003A11D9 /* MGDayPadController.m */; };
+		598007BD19C12750003A11D9 /* MGDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5980079B19C12750003A11D9 /* MGDataManager.m */; };
+		598007BE19C12750003A11D9 /* MGLiveMeterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5980079D19C12750003A11D9 /* MGLiveMeterView.m */; };
+		598007BF19C12750003A11D9 /* MGLiveMeterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5980079F19C12750003A11D9 /* MGLiveMeterController.m */; };
+		598007C019C12750003A11D9 /* MGAboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 598007A119C12750003A11D9 /* MGAboutController.m */; };
+		598007C119C12750003A11D9 /* MGCAShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 598007A319C12750003A11D9 /* MGCAShapeView.m */; };
+		598007C219C12750003A11D9 /* MGVideoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 598007A519C12750003A11D9 /* MGVideoManager.m */; };
+		598007C319C12750003A11D9 /* MGDiagnosicController.m in Sources */ = {isa = PBXBuildFile; fileRef = 598007A719C12750003A11D9 /* MGDiagnosicController.m */; };
+		598007C419C12750003A11D9 /* MGUsageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 598007A919C12750003A11D9 /* MGUsageController.m */; };
+		598007C519C12750003A11D9 /* MGLastUsageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 598007AB19C12750003A11D9 /* MGLastUsageController.m */; };
+		598007D419C12819003A11D9 /* Proxima Nova Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 598007C719C12819003A11D9 /* Proxima Nova Bold.otf */; };
+		598007D519C12819003A11D9 /* Proxima Nova Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 598007C819C12819003A11D9 /* Proxima Nova Light.otf */; };
+		598007D619C12819003A11D9 /* Proxima Nova Reg.otf in Resources */ = {isa = PBXBuildFile; fileRef = 598007C919C12819003A11D9 /* Proxima Nova Reg.otf */; };
+		598007D719C12819003A11D9 /* Proxima Nova Sbold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 598007CA19C12819003A11D9 /* Proxima Nova Sbold.otf */; };
+		598007D819C12819003A11D9 /* Proxima Nova Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 598007CB19C12819003A11D9 /* Proxima Nova Thin.otf */; };
+		598007D919C12819003A11D9 /* Urtd - IONC-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 598007CC19C12819003A11D9 /* Urtd - IONC-Bold.otf */; };
+		598007DA19C12819003A11D9 /* Urtd - IONC-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 598007CD19C12819003A11D9 /* Urtd - IONC-Medium.otf */; };
+		598007DB19C12819003A11D9 /* Urtd - IONC-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 598007CE19C12819003A11D9 /* Urtd - IONC-Regular.otf */; };
+		598007DC19C12819003A11D9 /* Urtd - IONC-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 598007CF19C12819003A11D9 /* Urtd - IONC-Semibold.otf */; };
+		598007DD19C12819003A11D9 /* Vitesse-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 598007D019C12819003A11D9 /* Vitesse-Black.otf */; };
+		598007DE19C12819003A11D9 /* Vitesse-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 598007D119C12819003A11D9 /* Vitesse-Bold.otf */; };
+		598007DF19C12819003A11D9 /* Vitesse-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 598007D219C12819003A11D9 /* Vitesse-Book.otf */; };
+		598007E019C12819003A11D9 /* Vitesse-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 598007D319C12819003A11D9 /* Vitesse-Medium.otf */; };
+		598007E319C12844003A11D9 /* MGRoundGuage.m in Sources */ = {isa = PBXBuildFile; fileRef = 598007E219C12844003A11D9 /* MGRoundGuage.m */; };
+		598007EA19C12D9A003A11D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 598007E719C12D9A003A11D9 /* Foundation.framework */; };
+		598007EB19C12D9A003A11D9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 598007E819C12D9A003A11D9 /* SystemConfiguration.framework */; };
+		598007EC19C12D9A003A11D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 598007E919C12D9A003A11D9 /* UIKit.framework */; };
+		598007F119C130D1003A11D9 /* MGQuotaPadController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 598007ED19C130D1003A11D9 /* MGQuotaPadController.xib */; };
+		598007F219C130D1003A11D9 /* MGUsedPadController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 598007EE19C130D1003A11D9 /* MGUsedPadController.xib */; };
+		598007F319C130D1003A11D9 /* MGDayPadController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 598007EF19C130D1003A11D9 /* MGDayPadController.xib */; };
+		598007F419C130D1003A11D9 /* MGLiveMeterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 598007F019C130D1003A11D9 /* MGLiveMeterController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,21 +74,93 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		59254A0D19C15D0A00873466 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Flurry.h; path = ../../Flurry.h; sourceTree = "<group>"; };
+		59254A0E19C15D0A00873466 /* libFlurry_5.3.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFlurry_5.3.0.a; path = ../../libFlurry_5.3.0.a; sourceTree = "<group>"; };
 		5980074C19C12702003A11D9 /* Data Robot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Data Robot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5980075019C12702003A11D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5980075119C12702003A11D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5980075319C12702003A11D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5980075419C12702003A11D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5980075619C12702003A11D9 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		5980075719C12702003A11D9 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		5980075919C12702003A11D9 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		5980075A19C12702003A11D9 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		5980075D19C12703003A11D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5980075F19C12703003A11D9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5980076219C12703003A11D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5980076819C12703003A11D9 /* Data RobotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Data RobotTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5980076D19C12703003A11D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5980076E19C12703003A11D9 /* Data_RobotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Data_RobotTests.m; sourceTree = "<group>"; };
+		5980077819C12750003A11D9 /* CallEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallEvent.h; sourceTree = "<group>"; };
+		5980077919C12750003A11D9 /* CallEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallEvent.m; sourceTree = "<group>"; };
+		5980077A19C12750003A11D9 /* LocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
+		5980077B19C12750003A11D9 /* LocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
+		5980077C19C12750003A11D9 /* CallManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallManager.h; sourceTree = "<group>"; };
+		5980077D19C12750003A11D9 /* CallManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallManager.m; sourceTree = "<group>"; };
+		5980077E19C12750003A11D9 /* HistoryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryManager.h; sourceTree = "<group>"; };
+		5980077F19C12750003A11D9 /* HistoryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryManager.m; sourceTree = "<group>"; };
+		5980078019C12750003A11D9 /* UserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaults.h; sourceTree = "<group>"; };
+		5980078119C12750003A11D9 /* UserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaults.m; sourceTree = "<group>"; };
+		5980078219C12750003A11D9 /* CallPeriodStateMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallPeriodStateMachine.h; sourceTree = "<group>"; };
+		5980078319C12750003A11D9 /* CallPeriodStateMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallPeriodStateMachine.m; sourceTree = "<group>"; };
+		5980078419C12750003A11D9 /* DebugManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugManager.h; sourceTree = "<group>"; };
+		5980078519C12750003A11D9 /* DebugManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugManager.m; sourceTree = "<group>"; };
+		5980078619C12750003A11D9 /* CallPeriod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallPeriod.h; sourceTree = "<group>"; };
+		5980078719C12750003A11D9 /* CallPeriod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallPeriod.m; sourceTree = "<group>"; };
+		5980078819C12750003A11D9 /* CalendarComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarComponents.h; sourceTree = "<group>"; };
+		5980078919C12750003A11D9 /* CalendarComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarComponents.m; sourceTree = "<group>"; };
+		5980078A19C12750003A11D9 /* NotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationManager.h; sourceTree = "<group>"; };
+		5980078B19C12750003A11D9 /* NotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationManager.m; sourceTree = "<group>"; };
+		5980078C19C12750003A11D9 /* Formats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Formats.h; sourceTree = "<group>"; };
+		5980078D19C12750003A11D9 /* Formats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Formats.m; sourceTree = "<group>"; };
+		5980078E19C12750003A11D9 /* StatsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatsManager.h; sourceTree = "<group>"; };
+		5980078F19C12750003A11D9 /* StatsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatsManager.m; sourceTree = "<group>"; };
+		5980079019C12750003A11D9 /* MGCurrentBillPeriod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCurrentBillPeriod.h; sourceTree = "<group>"; };
+		5980079119C12750003A11D9 /* MGCurrentBillPeriod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCurrentBillPeriod.m; sourceTree = "<group>"; };
+		5980079219C12750003A11D9 /* MGDataUsageObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGDataUsageObject.h; sourceTree = "<group>"; };
+		5980079319C12750003A11D9 /* MGDataUsageObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGDataUsageObject.m; sourceTree = "<group>"; };
+		5980079419C12750003A11D9 /* MGQuotaPadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGQuotaPadController.h; sourceTree = "<group>"; };
+		5980079519C12750003A11D9 /* MGQuotaPadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGQuotaPadController.m; sourceTree = "<group>"; };
+		5980079619C12750003A11D9 /* MGUsedPadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGUsedPadController.h; sourceTree = "<group>"; };
+		5980079719C12750003A11D9 /* MGUsedPadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGUsedPadController.m; sourceTree = "<group>"; };
+		5980079819C12750003A11D9 /* MGDayPadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGDayPadController.h; sourceTree = "<group>"; };
+		5980079919C12750003A11D9 /* MGDayPadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGDayPadController.m; sourceTree = "<group>"; };
+		5980079A19C12750003A11D9 /* MGDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGDataManager.h; sourceTree = "<group>"; };
+		5980079B19C12750003A11D9 /* MGDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGDataManager.m; sourceTree = "<group>"; };
+		5980079C19C12750003A11D9 /* MGLiveMeterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLiveMeterView.h; sourceTree = "<group>"; };
+		5980079D19C12750003A11D9 /* MGLiveMeterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLiveMeterView.m; sourceTree = "<group>"; };
+		5980079E19C12750003A11D9 /* MGLiveMeterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLiveMeterController.h; sourceTree = "<group>"; };
+		5980079F19C12750003A11D9 /* MGLiveMeterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLiveMeterController.m; sourceTree = "<group>"; };
+		598007A019C12750003A11D9 /* MGAboutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGAboutController.h; sourceTree = "<group>"; };
+		598007A119C12750003A11D9 /* MGAboutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGAboutController.m; sourceTree = "<group>"; };
+		598007A219C12750003A11D9 /* MGCAShapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCAShapeView.h; sourceTree = "<group>"; };
+		598007A319C12750003A11D9 /* MGCAShapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCAShapeView.m; sourceTree = "<group>"; };
+		598007A419C12750003A11D9 /* MGVideoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGVideoManager.h; sourceTree = "<group>"; };
+		598007A519C12750003A11D9 /* MGVideoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGVideoManager.m; sourceTree = "<group>"; };
+		598007A619C12750003A11D9 /* MGDiagnosicController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGDiagnosicController.h; sourceTree = "<group>"; };
+		598007A719C12750003A11D9 /* MGDiagnosicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGDiagnosicController.m; sourceTree = "<group>"; };
+		598007A819C12750003A11D9 /* MGUsageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGUsageController.h; sourceTree = "<group>"; };
+		598007A919C12750003A11D9 /* MGUsageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGUsageController.m; sourceTree = "<group>"; };
+		598007AA19C12750003A11D9 /* MGLastUsageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLastUsageController.h; sourceTree = "<group>"; };
+		598007AB19C12750003A11D9 /* MGLastUsageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLastUsageController.m; sourceTree = "<group>"; };
+		598007C719C12819003A11D9 /* Proxima Nova Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Bold.otf"; sourceTree = "<group>"; };
+		598007C819C12819003A11D9 /* Proxima Nova Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Light.otf"; sourceTree = "<group>"; };
+		598007C919C12819003A11D9 /* Proxima Nova Reg.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Reg.otf"; sourceTree = "<group>"; };
+		598007CA19C12819003A11D9 /* Proxima Nova Sbold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Sbold.otf"; sourceTree = "<group>"; };
+		598007CB19C12819003A11D9 /* Proxima Nova Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Thin.otf"; sourceTree = "<group>"; };
+		598007CC19C12819003A11D9 /* Urtd - IONC-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urtd - IONC-Bold.otf"; sourceTree = "<group>"; };
+		598007CD19C12819003A11D9 /* Urtd - IONC-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urtd - IONC-Medium.otf"; sourceTree = "<group>"; };
+		598007CE19C12819003A11D9 /* Urtd - IONC-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urtd - IONC-Regular.otf"; sourceTree = "<group>"; };
+		598007CF19C12819003A11D9 /* Urtd - IONC-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urtd - IONC-Semibold.otf"; sourceTree = "<group>"; };
+		598007D019C12819003A11D9 /* Vitesse-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Vitesse-Black.otf"; sourceTree = "<group>"; };
+		598007D119C12819003A11D9 /* Vitesse-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Vitesse-Bold.otf"; sourceTree = "<group>"; };
+		598007D219C12819003A11D9 /* Vitesse-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Vitesse-Book.otf"; sourceTree = "<group>"; };
+		598007D319C12819003A11D9 /* Vitesse-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Vitesse-Medium.otf"; sourceTree = "<group>"; };
+		598007E119C12844003A11D9 /* MGRoundGuage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGRoundGuage.h; sourceTree = "<group>"; };
+		598007E219C12844003A11D9 /* MGRoundGuage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGRoundGuage.m; sourceTree = "<group>"; };
+		598007E719C12D9A003A11D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		598007E819C12D9A003A11D9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		598007E919C12D9A003A11D9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		598007ED19C130D1003A11D9 /* MGQuotaPadController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MGQuotaPadController.xib; sourceTree = "<group>"; };
+		598007EE19C130D1003A11D9 /* MGUsedPadController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MGUsedPadController.xib; sourceTree = "<group>"; };
+		598007EF19C130D1003A11D9 /* MGDayPadController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MGDayPadController.xib; sourceTree = "<group>"; };
+		598007F019C130D1003A11D9 /* MGLiveMeterController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MGLiveMeterController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +168,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				598007EA19C12D9A003A11D9 /* Foundation.framework in Frameworks */,
+				598007EB19C12D9A003A11D9 /* SystemConfiguration.framework in Frameworks */,
+				59254A0F19C15D0A00873466 /* libFlurry_5.3.0.a in Frameworks */,
+				598007EC19C12D9A003A11D9 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +188,9 @@
 		5980074319C12702003A11D9 = {
 			isa = PBXGroup;
 			children = (
+				598007E719C12D9A003A11D9 /* Foundation.framework */,
+				598007E819C12D9A003A11D9 /* SystemConfiguration.framework */,
+				598007E919C12D9A003A11D9 /* UIKit.framework */,
 				5980074E19C12702003A11D9 /* Data Robot */,
 				5980076B19C12703003A11D9 /* Data RobotTests */,
 				5980074D19C12702003A11D9 /* Products */,
@@ -84,15 +209,68 @@
 		5980074E19C12702003A11D9 /* Data Robot */ = {
 			isa = PBXGroup;
 			children = (
+				598007E119C12844003A11D9 /* MGRoundGuage.h */,
+				598007E219C12844003A11D9 /* MGRoundGuage.m */,
+				5980077819C12750003A11D9 /* CallEvent.h */,
+				5980077919C12750003A11D9 /* CallEvent.m */,
+				5980077A19C12750003A11D9 /* LocationManager.h */,
+				5980077B19C12750003A11D9 /* LocationManager.m */,
+				5980077C19C12750003A11D9 /* CallManager.h */,
+				5980077D19C12750003A11D9 /* CallManager.m */,
+				5980077E19C12750003A11D9 /* HistoryManager.h */,
+				5980077F19C12750003A11D9 /* HistoryManager.m */,
+				5980078019C12750003A11D9 /* UserDefaults.h */,
+				5980078119C12750003A11D9 /* UserDefaults.m */,
+				5980078219C12750003A11D9 /* CallPeriodStateMachine.h */,
+				5980078319C12750003A11D9 /* CallPeriodStateMachine.m */,
+				5980078419C12750003A11D9 /* DebugManager.h */,
+				5980078519C12750003A11D9 /* DebugManager.m */,
+				5980078619C12750003A11D9 /* CallPeriod.h */,
+				5980078719C12750003A11D9 /* CallPeriod.m */,
+				5980078819C12750003A11D9 /* CalendarComponents.h */,
+				5980078919C12750003A11D9 /* CalendarComponents.m */,
+				5980078A19C12750003A11D9 /* NotificationManager.h */,
+				5980078B19C12750003A11D9 /* NotificationManager.m */,
+				5980078C19C12750003A11D9 /* Formats.h */,
+				5980078D19C12750003A11D9 /* Formats.m */,
+				5980078E19C12750003A11D9 /* StatsManager.h */,
+				5980078F19C12750003A11D9 /* StatsManager.m */,
+				5980079019C12750003A11D9 /* MGCurrentBillPeriod.h */,
+				5980079119C12750003A11D9 /* MGCurrentBillPeriod.m */,
+				5980079219C12750003A11D9 /* MGDataUsageObject.h */,
+				5980079319C12750003A11D9 /* MGDataUsageObject.m */,
+				5980079A19C12750003A11D9 /* MGDataManager.h */,
+				5980079B19C12750003A11D9 /* MGDataManager.m */,
+				5980079C19C12750003A11D9 /* MGLiveMeterView.h */,
+				5980079D19C12750003A11D9 /* MGLiveMeterView.m */,
+				598007A019C12750003A11D9 /* MGAboutController.h */,
+				598007A119C12750003A11D9 /* MGAboutController.m */,
+				598007A219C12750003A11D9 /* MGCAShapeView.h */,
+				598007A319C12750003A11D9 /* MGCAShapeView.m */,
+				598007A419C12750003A11D9 /* MGVideoManager.h */,
+				598007A519C12750003A11D9 /* MGVideoManager.m */,
+				598007A619C12750003A11D9 /* MGDiagnosicController.h */,
+				598007A719C12750003A11D9 /* MGDiagnosicController.m */,
+				598007A819C12750003A11D9 /* MGUsageController.h */,
+				598007A919C12750003A11D9 /* MGUsageController.m */,
+				598007AA19C12750003A11D9 /* MGLastUsageController.h */,
+				598007AB19C12750003A11D9 /* MGLastUsageController.m */,
 				5980075319C12702003A11D9 /* AppDelegate.h */,
 				5980075419C12702003A11D9 /* AppDelegate.m */,
-				5980075619C12702003A11D9 /* FirstViewController.h */,
-				5980075719C12702003A11D9 /* FirstViewController.m */,
-				5980075919C12702003A11D9 /* SecondViewController.h */,
-				5980075A19C12702003A11D9 /* SecondViewController.m */,
 				5980075C19C12703003A11D9 /* Main.storyboard */,
-				5980075F19C12703003A11D9 /* Images.xcassets */,
 				5980076119C12703003A11D9 /* LaunchScreen.xib */,
+				5980079419C12750003A11D9 /* MGQuotaPadController.h */,
+				5980079519C12750003A11D9 /* MGQuotaPadController.m */,
+				598007ED19C130D1003A11D9 /* MGQuotaPadController.xib */,
+				5980079619C12750003A11D9 /* MGUsedPadController.h */,
+				5980079719C12750003A11D9 /* MGUsedPadController.m */,
+				598007EE19C130D1003A11D9 /* MGUsedPadController.xib */,
+				5980079819C12750003A11D9 /* MGDayPadController.h */,
+				5980079919C12750003A11D9 /* MGDayPadController.m */,
+				598007EF19C130D1003A11D9 /* MGDayPadController.xib */,
+				5980079E19C12750003A11D9 /* MGLiveMeterController.h */,
+				5980079F19C12750003A11D9 /* MGLiveMeterController.m */,
+				598007F019C130D1003A11D9 /* MGLiveMeterController.xib */,
 				5980074F19C12702003A11D9 /* Supporting Files */,
 			);
 			path = "Data Robot";
@@ -101,6 +279,10 @@
 		5980074F19C12702003A11D9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				59254A0D19C15D0A00873466 /* Flurry.h */,
+				59254A0E19C15D0A00873466 /* libFlurry_5.3.0.a */,
+				5980075F19C12703003A11D9 /* Images.xcassets */,
+				598007C619C12819003A11D9 /* fonts */,
 				5980075019C12702003A11D9 /* Info.plist */,
 				5980075119C12702003A11D9 /* main.m */,
 			);
@@ -122,6 +304,26 @@
 				5980076D19C12703003A11D9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		598007C619C12819003A11D9 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				598007C719C12819003A11D9 /* Proxima Nova Bold.otf */,
+				598007C819C12819003A11D9 /* Proxima Nova Light.otf */,
+				598007C919C12819003A11D9 /* Proxima Nova Reg.otf */,
+				598007CA19C12819003A11D9 /* Proxima Nova Sbold.otf */,
+				598007CB19C12819003A11D9 /* Proxima Nova Thin.otf */,
+				598007CC19C12819003A11D9 /* Urtd - IONC-Bold.otf */,
+				598007CD19C12819003A11D9 /* Urtd - IONC-Medium.otf */,
+				598007CE19C12819003A11D9 /* Urtd - IONC-Regular.otf */,
+				598007CF19C12819003A11D9 /* Urtd - IONC-Semibold.otf */,
+				598007D019C12819003A11D9 /* Vitesse-Black.otf */,
+				598007D119C12819003A11D9 /* Vitesse-Bold.otf */,
+				598007D219C12819003A11D9 /* Vitesse-Book.otf */,
+				598007D319C12819003A11D9 /* Vitesse-Medium.otf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +375,7 @@
 				TargetAttributes = {
 					5980074B19C12702003A11D9 = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 65PMYRRX45;
 					};
 					5980076719C12703003A11D9 = {
 						CreatedOnToolsVersion = 6.0;
@@ -204,9 +407,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				598007F119C130D1003A11D9 /* MGQuotaPadController.xib in Resources */,
+				598007DC19C12819003A11D9 /* Urtd - IONC-Semibold.otf in Resources */,
 				5980075E19C12703003A11D9 /* Main.storyboard in Resources */,
+				598007DE19C12819003A11D9 /* Vitesse-Bold.otf in Resources */,
+				598007D719C12819003A11D9 /* Proxima Nova Sbold.otf in Resources */,
+				598007F319C130D1003A11D9 /* MGDayPadController.xib in Resources */,
+				598007DD19C12819003A11D9 /* Vitesse-Black.otf in Resources */,
+				598007D419C12819003A11D9 /* Proxima Nova Bold.otf in Resources */,
+				598007DB19C12819003A11D9 /* Urtd - IONC-Regular.otf in Resources */,
+				598007D819C12819003A11D9 /* Proxima Nova Thin.otf in Resources */,
 				5980076319C12703003A11D9 /* LaunchScreen.xib in Resources */,
+				598007DF19C12819003A11D9 /* Vitesse-Book.otf in Resources */,
+				598007E019C12819003A11D9 /* Vitesse-Medium.otf in Resources */,
+				598007D619C12819003A11D9 /* Proxima Nova Reg.otf in Resources */,
+				598007DA19C12819003A11D9 /* Urtd - IONC-Medium.otf in Resources */,
+				598007F219C130D1003A11D9 /* MGUsedPadController.xib in Resources */,
+				598007D519C12819003A11D9 /* Proxima Nova Light.otf in Resources */,
 				5980076019C12703003A11D9 /* Images.xcassets in Resources */,
+				598007D919C12819003A11D9 /* Urtd - IONC-Bold.otf in Resources */,
+				598007F419C130D1003A11D9 /* MGLiveMeterController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,10 +444,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5980075B19C12702003A11D9 /* SecondViewController.m in Sources */,
+				598007E319C12844003A11D9 /* MGRoundGuage.m in Sources */,
+				598007B919C12750003A11D9 /* MGDataUsageObject.m in Sources */,
+				598007AF19C12750003A11D9 /* HistoryManager.m in Sources */,
+				598007C119C12750003A11D9 /* MGCAShapeView.m in Sources */,
+				598007B019C12750003A11D9 /* UserDefaults.m in Sources */,
+				598007B319C12750003A11D9 /* CallPeriod.m in Sources */,
+				598007B719C12750003A11D9 /* StatsManager.m in Sources */,
+				598007B819C12750003A11D9 /* MGCurrentBillPeriod.m in Sources */,
+				598007BC19C12750003A11D9 /* MGDayPadController.m in Sources */,
+				598007BB19C12750003A11D9 /* MGUsedPadController.m in Sources */,
+				598007B119C12750003A11D9 /* CallPeriodStateMachine.m in Sources */,
+				598007B619C12750003A11D9 /* Formats.m in Sources */,
+				598007B219C12750003A11D9 /* DebugManager.m in Sources */,
+				598007C219C12750003A11D9 /* MGVideoManager.m in Sources */,
+				598007AD19C12750003A11D9 /* LocationManager.m in Sources */,
 				5980075519C12702003A11D9 /* AppDelegate.m in Sources */,
-				5980075819C12702003A11D9 /* FirstViewController.m in Sources */,
+				598007AC19C12750003A11D9 /* CallEvent.m in Sources */,
 				5980075219C12702003A11D9 /* main.m in Sources */,
+				598007C019C12750003A11D9 /* MGAboutController.m in Sources */,
+				598007BA19C12750003A11D9 /* MGQuotaPadController.m in Sources */,
+				598007AE19C12750003A11D9 /* CallManager.m in Sources */,
+				598007BD19C12750003A11D9 /* MGDataManager.m in Sources */,
+				598007C519C12750003A11D9 /* MGLastUsageController.m in Sources */,
+				598007C319C12750003A11D9 /* MGDiagnosicController.m in Sources */,
+				598007BE19C12750003A11D9 /* MGLiveMeterView.m in Sources */,
+				598007B519C12750003A11D9 /* NotificationManager.m in Sources */,
+				598007B419C12750003A11D9 /* CalendarComponents.m in Sources */,
+				598007C419C12750003A11D9 /* MGUsageController.m in Sources */,
+				598007BF19C12750003A11D9 /* MGLiveMeterController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +548,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -339,7 +584,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -351,9 +596,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Data Robot/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/engineering/git/datarobot,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -361,9 +612,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Data Robot/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/engineering/git/datarobot,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -420,6 +677,7 @@
 				5980077419C12703003A11D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5980077519C12703003A11D9 /* Build configuration list for PBXNativeTarget "Data RobotTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +686,7 @@
 				5980077719C12703003A11D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
